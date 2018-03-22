@@ -1,0 +1,42 @@
+#controls {
+    bottom:-120px;
+    right:0px;
+    left:0px;
+    margin:auto;
+    position:fixed;
+    text-align:center;
+    z-index:9999999;
+}
+
+#display {
+    position:absolute;
+    top:0px;
+    left:0px;
+    margin:auto;
+    width:100vw;
+}
+
+#background, .background {
+    position:relative;
+    width:100%;
+    height:300px;
+    background-size:cover;
+    background-repeat:repeat;
+    display:inline-block;
+}
+
+#titlebg, .titlebg {
+    position:absolute;
+    left:10%;
+    top:10%;
+    font-size:30px;
+    border-bottom:2px solid gray;
+}
+
+#descbg, .descbg {
+    position:absolute;
+    left:10%;
+    top:20%;
+    font-size:20px;
+    padding-top:8px;
+}
